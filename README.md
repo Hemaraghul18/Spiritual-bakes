@@ -129,12 +129,6 @@ emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams, "YOUR_PUBLIC
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots or GIFs of the homepage, QR code, and cart experience here
-
----
-
 ## 📬 Contact
 
 **Developer:** Hema Raghul
