@@ -5,19 +5,25 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js"
+    "dev": "nodemon server.js",      // for local development
+    "server": "node server.js"       // for Render production deployment
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.9.0",
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^3.0.2",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "express": "^4.21.2",
+    "imap": "^0.8.19",
     "jsonwebtoken": "^9.0.2",
+    "mailparser": "^3.7.2",
     "mongoose": "^8.12.1",
     "multer": "^1.4.5-lts.1",
+    "simple-parser": "^0.0.0",
     "stripe": "^17.7.0",
     "validator": "^13.12.0"
   },
